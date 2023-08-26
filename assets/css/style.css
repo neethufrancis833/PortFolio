@@ -757,7 +757,7 @@ section .container {
   color: #fff;
   background: rgba(255, 255, 255, 0.1);
   margin: 0 3px 10px 3px;
-/*  transition: all 0.3s ease-in-out;*/
+  transition: all 0.3s ease-in-out;
   border-radius: 4px;
 }
 
@@ -770,7 +770,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap {
-/*  transition: 0.3s;*/
+  transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -785,7 +785,7 @@ section .container {
   right: 30px;
   top: 30px;
   bottom: 30px;
-/*  transition: all ease-in-out 0.3s;*/
+  transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
 }
@@ -799,7 +799,7 @@ section .container {
   bottom: 0;
   text-align: center;
   z-index: 3;
-/*  transition: all ease-in-out 0.3s;*/
+  transition: all ease-in-out 0.3s;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -816,7 +816,7 @@ section .container {
   left: 35px;
   border-top: 3px solid #fff;
   border-left: 3px solid #fff;
-/*  transition: all 0.5s ease 0s;*/
+  transition: all 0.5s ease 0s;
   z-index: 9994;
 }
 
@@ -830,7 +830,7 @@ section .container {
   right: 35px;
   border-bottom: 3px solid #fff;
   border-right: 3px solid #fff;
-/*  transition: all 0.5s ease 0s;*/
+  transition: all 0.5s ease 0s;
   z-index: 9994;
 }
 
@@ -865,15 +865,15 @@ section .container {
   color: #63eda3;
 }*/
 
-/*.portfolio .portfolio-wrap:hover::before {
+.portfolio .portfolio-wrap:hover::before {
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   opacity: 1;
-}*/
+}
 
-/*.portfolio .portfolio-wrap:hover .portfolio-info {
+.portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
 }
 
@@ -886,7 +886,7 @@ section .container {
   bottom: 15px;
   right: 15px;
 }
-*/
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
